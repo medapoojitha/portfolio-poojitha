@@ -35,7 +35,7 @@ export default function About() {
           </div>
 
           {/* Right: Highlights */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="p-6 rounded-xl bg-gray-900 border border-gray-800">
               <h3 className="text-2xl font-bold text-violet-400">5+</h3>
               <p className="text-gray-400 mt-2">Projects Built</p>

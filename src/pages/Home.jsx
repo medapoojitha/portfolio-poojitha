@@ -8,7 +8,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-5xl md:text-6xl font-bold"
+          className="text-4xl md:text-6xl font-extrabold"
         >
           Meda Poojitha Reddy
         </motion.h1>
@@ -17,7 +17,7 @@ export default function Home() {
           B.Tech AI & ML | React & Machine Learning Developer
         </p>
 
-        <div className="flex justify-center gap-6 pt-6">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="/projects"
             className="px-6 py-3 bg-violet-600 rounded-lg 

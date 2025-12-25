@@ -12,7 +12,7 @@ export default function Contact() {
           discuss ideas.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Email */}
           <div className="p-6 rounded-xl bg-gray-900 border border-gray-800">
             <h3 className="text-lg font-semibold text-white">Email</h3>
