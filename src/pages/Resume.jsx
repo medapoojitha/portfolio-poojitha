@@ -17,7 +17,7 @@ export default function Resume() {
         <div className="h-[80vh] border border-gray-800 rounded-lg overflow-hidden">
           <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
             <Viewer
-              fileUrl="/resume.pdf"
+              fileUrl="/poojitha_resume.pdf"
               plugins={[layoutPlugin]}
             />
           </Worker>
